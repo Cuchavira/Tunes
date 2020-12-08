@@ -4,10 +4,11 @@
 
 body {
     padding-top: 70px;
-	color: #222;
-    font-family: 'Open Sans', sans-serif;
+	color: #105528;
+    font-family: 'Unna', sans-serif;
     font-size: 17px;
     line-height: 1.8 !important;
+    background-color: #FBE9DD;
 }
 
 html {
@@ -15,13 +16,13 @@ html {
 }
 
 h1,h2,h3,h4,h5,h6 {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Unna', sans-serif;
 	font-weight:200;
 	color: #222;
 }
 
 p{
-	font-family: 'Playfair Display', serif;
+	font-family: 'Unna', serif;
 	font-weight:300;
 }
 
@@ -73,8 +74,8 @@ a:hover,a:focus {
 }
 
 .navbar-default {
-    background-color: #fff;
-    border-color: #fff;
+    background-color: #FBE9DD;
+    border-color: #FBE9DD;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
@@ -183,22 +184,22 @@ a:hover,a:focus {
 /* About */
 
 
-.big-letter p:first-child:first-letter { 
-	float: left; 
-	color: #222; 
-	font-size: 8em;  
-	line-height: 0.8em; 
-	text-transform: uppercase; 
-	padding-top: 0px;  
-	padding-right: 0.1em; 
-	padding-left: –0.03em;	
+.big-letter p:first-child:first-letter {
+	float: left;
+	color: #222;
+	font-size: 8em;
+	line-height: 0.8em;
+	text-transform: uppercase;
+	padding-top: 0px;
+	padding-right: 0.1em;
+	padding-left: –0.03em;
 }
 
 /* Firefox Fix */
 
 @-moz-document url-prefix() {
     .big-letter p:first-child:first-letter {
-        padding-top: 0.08em;  
+        padding-top: 0.08em;
     }
 }
 
@@ -296,8 +297,8 @@ a:hover,a:focus {
   transform: translate3d(0,0,0);
 }
 
-.hovereffect .photo-1, 
-.hovereffect .photo-2, 
+.hovereffect .photo-1,
+.hovereffect .photo-2,
 .hovereffect .photo-3,
 .hovereffect .photo-4,
 .hovereffect .photo-5,
@@ -455,7 +456,7 @@ a:hover,a:focus {
 	padding-bottom:1%;
 }
 
-.logo-list li a:hover, 
+.logo-list li a:hover,
 .logo-list li a:focus {
   opacity: 0.6;
   transition:  opacity 0.2s ease;
@@ -530,5 +531,3 @@ footer p {
     bottom: 30px;
   }
 }
-
-
