@@ -7,10 +7,10 @@ $('.navbar-toggle').click(function(){
     $(this).addClass('collapsed');
   }
  })
- 
- 
+
+
 // Back to top Arrow
- 
+
  jQuery(document).ready(function($){
 	// browser window scroll (in pixels) after which the "back to top" link is shown
 	var offset = 300,
@@ -24,7 +24,7 @@ $('.navbar-toggle').click(function(){
 	//hide or show the "back to top" link
 	$(window).scroll(function(){
 		( $(this).scrollTop() > offset ) ? $back_to_top.addClass('cd-is-visible') : $back_to_top.removeClass('cd-is-visible cd-fade-out');
-		if( $(this).scrollTop() > offset_opacity ) { 
+		if( $(this).scrollTop() > offset_opacity ) {
 			$back_to_top.addClass('cd-fade-out');
 		}
 	});
@@ -62,6 +62,12 @@ $(document).on('click', 'a[href^="#"]', function(e) {
     $('body, html').animate({scrollTop: pos});
 });
 
-
- 
-
+	var controller = new ScrollMagic.Controller();
+// build scene
+		var scene = new ScrollMagic.Scene({
+							triggerElement: "#trigger1"
+						})
+						.setTween("#animate1", 0.5, {backgroundColor: "green", scale: 2.5}) // trigger a TweenMax.to tween
+						.addIndicators({name: "1 (duration: 0)"}) // add indicators (requires plugin)
+						.addTo(controller);
+</script>

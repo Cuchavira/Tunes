@@ -1,14 +1,17 @@
 
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+@import url('https://fonts.googleapis.com/css2?family=Unna&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Livvic&family=Unna&display=swap');
 
 body {
     padding-top: 70px;
-	color: #105528;
+
+	  color: #105528;
     font-family: 'Unna', sans-serif;
     font-size: 17px;
     line-height: 1.8 !important;
-    background-color: #FBE9DD;
+    background-color: #F6ECE0;
 }
 
 html {
@@ -19,15 +22,21 @@ h1,h2,h3,h4,h5,h6 {
 	font-family: 'Unna', sans-serif;
 	font-weight:200;
 	color: #222;
+  font-size: 48px;
 }
 
+
+
+
 p{
-	font-family: 'Unna', serif;
+	font-family: 'Livvic', serif;
 	font-weight:300;
+  font-size: 20px;
+  color: #000000;
 }
 
 section {
-	padding-top:85px;
+	padding-top:0px;
 	padding-bottom:85px;
 }
 
@@ -74,8 +83,8 @@ a:hover,a:focus {
 }
 
 .navbar-default {
-    background-color: #FBE9DD;
-    border-color: #FBE9DD;
+    background-color: #F6ECE0;
+    border-color: #F6ECE0;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
@@ -174,15 +183,58 @@ a:hover,a:focus {
 /* Intro */
 
 .intro {
-	font-size:22px;
 	padding-top:60px;
 	padding-bottom:25px;
+  position: relative;
+}
+
+.intro-text{
+  position: absolute;
+  font-size:48px;
+  font-family: 'Unna', sans-serif;
+  font-weight:200;
+  color: #000000;
+  font-size: 48px;
+  padding-top:60px;
+	padding-bottom:25px;
+  padding-left:25px;
+
+
 }
 
 
 
-/* About */
 
+
+
+
+/* About */
+.HMW{
+  float:center;
+  font-family: 'Unna';
+	font-weight:100;
+	color: #7C1D30;
+  font-size: 48px;
+  padding-top: 0px;
+	padding-right: 180px;
+	padding-left: 180px;
+  padding-bottom: 105px;
+  line-height: 110%;
+
+}
+
+.sub-title{
+  float:left;
+  font-family: 'Unna';
+  color:#7C1D30;
+  font-size: 48px;
+  padding-top: 0px;
+  padding-right: 1190px;
+	padding-left: 0px;
+  padding-bottom: 16px;
+  text-align:right;
+  line-height: 110%;
+}
 
 .big-letter p:first-child:first-letter {
 	float: left;
